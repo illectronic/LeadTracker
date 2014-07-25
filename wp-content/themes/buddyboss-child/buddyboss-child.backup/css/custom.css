@@ -1,0 +1,152 @@
+/*--------------------------------------------------------------
+This is your custom stylesheet.
+
+Add your own styles here to make theme updates easier.
+To override any styles from other stylesheets, simply copy them into here and edit away.
+
+Make sure to respect the media queries! Otherwise you may
+accidentally add desktop styles to the mobile layout.
+
+You're the boss, so have fun editing!
+
+--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Global Styles
+2.0 - Responsive media queries (mobile styles)
+	2.1 - MAXIMUM width of 720 pixels (phones landscape)
+	2.2 - MAXIMUM width of 380 pixels (phones portrait)
+	2.3 - MINIMUM width of 721 pixels (tablets+)
+	2.4 - MINIMUM width of 1040 pixels (desktops and laptops)
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 - Global Styles
+--------------------------------------------------------------*/
+#buddypress div#subnav.item-list-tabs ul li.feed{display:none;}
+#buddypress div#item-header div.generic-button{display:none;}
+#bp-default{
+ margin-top: -25px !important;
+ }
+
+ #wp-admin-bar {
+ display: none !important;
+ }
+#buddypress div#subnav.item-list-tabs #activity-all,#buddypress div#subnav.item-list-tabs #activity-groups,#buddypress div#subnav.item-list-tabs #activity-mentions{display:none;}
+.entry-content ol, .comment-content ol, .entry-content ul, .comment-content ul, .mu_register ul{padding:0;margin:0;}
+#buddypress ul.item-list li{padding:0;}
+.entry-content li, .comment-content li, .mu_register li {margin:0;padding:0;}
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 0em;
+-webkit-margin-after: 0em;
+-webkit-padding-start: 0px;
+}
+.entry-content ol, .comment-content ol, .entry-content ul, .comment-content ul, .mu_register ul{margin:0;}
+#whats-new-post-in-box{margin-bottom:10px;}
+#buddypress div#subnav{display:none;}
+#buddypress div#item-nav{display:none;}
+#buddypress div#item-header div#item-header-content span.highlight{display:none;}
+#buddypress div#item-header div#item-actions{display:none;}
+//#buddypress .activity[role="main"]{display:none;}
+#buddypress div#mobile-item-nav-wrap{display:none;height:0;}
+#buddypress div#mobile-item-nav{display:none;}
+#buddypress div#item-header #item-buttons{display:none;}
+#main-wrap #mobile-header .mobile-header-inner div.left-btn{display:none;}
+#main-wrap #mobile-header .mobile-header-inner div.right-btn{display:none;}
+#buddypress div#item-nav{display:none;}
+#buddypress .activity-list .activity-avatar{display:none;}
+#buddypress .acomment-avatar{display:none;}
+#buddypress #activity-stream{float:left;margin-left:0;padding-left:0;}
+#buddypress .activity-list .activity-content {margin:0;}
+body.bp-user #buddypress #item-header-avatar, body.single-item.groups #buddypress #item-header-avatar{display:none;}
+#buddypress ul#activity-stream li.activity-item{margin-left:0;}
+body.single-item.groups .entry-header{margin:0;}
+#buddypress div#item-header div#item-meta{display:none;}
+#buddypress div#item-header span.activity{display:none;}
+#buddypress ul#groups-list div.action .group-button{display:none;}
+/*
+.just_an_example {
+	color: black;
+}
+*/
+
+
+
+/*--------------------------------------------------------------
+2.0 - Responsive media queries (mobile styles)
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+2.1 - MAXIMUM width of 720 pixels (phones landscape)
+--------------------------------------------------------------*/
+@media screen and (max-width: 720px) {
+body.bp-user .entry-header, body.single-item.groups .entry-header{margin-left:15px;}
+body.bp-user #buddypress #item-header-content, body.single-item.groups #buddypress #item-header-content{margin-left:15px;}
+body.single-item.groups #buddypress #item-header-content{min-height:5px;}
+#buddypress form#whats-new-form p.activity-greeting{display:block;}
+body.bp-user #buddypress #item-header-content,body.single-item.groups #buddypress #item-header-content{max-width:70%;}
+	/*
+	.just_an_example {
+		color: black;
+	}
+	*/
+
+
+}/* don't delete this closing bracket */
+
+
+
+
+
+/*--------------------------------------------------------------
+2.2 - MAXIMUM width of 380 pixels (phones portrait)
+--------------------------------------------------------------*/
+@media screen and (max-width: 380px) {
+#buddypress form#whats-new-form p.activity-greeting{display:block;}
+
+	/*
+	.just_an_example {
+		color: black;
+	}
+	*/
+
+
+}/* don't delete this closing bracket */
+
+
+
+
+
+/*--------------------------------------------------------------
+2.3 - MINIMUM width of 721 pixels (tablets+)
+--------------------------------------------------------------*/
+@media screen and (min-width: 721px)  {
+
+#buddypress form#whats-new-form p.activity-greeting{display:block;}
+	/*
+	.just_an_example {
+		color: black;
+	}
+	*/
+
+
+}/* don't delete this closing bracket */
+
+
+
+
+
+/*--------------------------------------------------------------
+2.4 - MINIMUM width of 1040 pixels (desktops and laptops)
+--------------------------------------------------------------*/
+@media screen and (min-width: 1040px)  {
+
+#buddypress form#whats-new-form p.activity-greeting{display:none;}
+	/*
+	.just_an_example {
+		color: black;
+	}
+	*/
+
+
+}/* don't delete this closing bracket */

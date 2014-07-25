@@ -1,0 +1,262 @@
+/*--------------------------------------------------------------
+This is the admin bar stylesheet.
+On a mobile device, the admin bar is the left sliding panel.
+The default adminbar.css is deregistered via functions.php.
+
+----------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Responsive media queries (mobile styles)
+	2.0 - MAXIMUM width of 720 pixels (phones)
+		2.1 - Remove default 28px top margin
+		2.2 - Sliding Panel - User Nav - General
+		2.3 - Top User Info - Avatar + Name + Username
+		2.4 - Notifications
+		2.5 - Top Level Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 - Responsive media queries (mobile styles)
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+2.0 - MAXIMUM width of 720 pixels (phones)
+--------------------------------------------------------------*/
+
+@media screen and (max-width: 720px) {
+
+	/*--------------------------------------------------------------
+	2.1 - Remove default 28px top margin
+	--------------------------------------------------------------*/
+
+	html { margin-top: 0 !important; }
+	* html body { margin-top: 0 !important; }
+
+	/*--------------------------------------------------------------
+	2.2 - Sliding Panel - User Nav - General
+	--------------------------------------------------------------*/
+
+	body #wpadminbar {
+		z-index: -1;
+	}
+
+	#wpadminbar {
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 262px;
+		height: 100%;
+		position: fixed;
+		overflow: auto;
+		display: block;
+		z-index: 1;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+		opacity:0;
+		background: #34393d;
+		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+		-webkit-backface-visibility: hidden;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		outline:none;
+	}
+	#wpadminbar li {
+		-webkit-transform: translatez(0);
+		-moz-transform: translatez(0);
+		-ms-transform: translatez(0);
+		-o-transform: translatez(0);
+		transform: translatez(0);
+	}
+	div.quicklinks {
+		-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	}
+	#wpadminbar.show {
+		opacity: 1;
+		z-index:2;
+	}
+	#wpadminbar.hide {
+		opacity: 1;
+		z-index:1;
+	}
+	#wpadminbar a {
+		font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+		text-decoration: none;
+		color: #fff;
+		outline: none;
+	}
+	div.quicklinks, div.ab-sub-wrapper { /* Remove Chrome outline on focus */
+		outline:0;
+	}
+
+	/* Hide Elements */
+	#wpadminbar a.screen-reader-shortcut { /* Hide "Skip to toolbar" link */
+		display:none;
+	}
+	#wpadminbar div.quicklinks ul#wp-admin-bar-root-default li { /* Hide the WordPress Dashboard Navigation */
+		display:none;
+	}
+	#wp-admin-bar-top-secondary li#wp-admin-bar-my-account.with-avatar > a.ab-item:first-of-type { /* Hide Small Avatar + Name */
+		display:none;
+	}
+	li#wp-admin-bar-bp-notifications { /* Hide the notifications area in the nav - We are creating a new notification area instead */
+		display:none;
+	}
+
+	/*--------------------------------------------------------------
+	2.3 - Top User Info - Avatar + Name + Username
+	--------------------------------------------------------------*/
+
+	/* General */
+	#wp-admin-bar-top-secondary ul#wp-admin-bar-user-actions li#wp-admin-bar-user-info {
+		position: relative;
+    	width: 100%;
+    	min-height: 42px; /* image height plus border */
+	}
+
+	/* Thumbnail */
+	#wp-admin-bar-top-secondary ul#wp-admin-bar-user-actions li#wp-admin-bar-user-info img {
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		top: 14px;
+		left: 5%;
+
+		-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+		border-radius: 30px;
+	}
+
+	/* Links */
+	#wp-admin-bar-top-secondary ul#wp-admin-bar-user-actions li#wp-admin-bar-user-info a {
+		padding: 13px 5%;
+		min-height: 40px;
+	}
+	#wp-admin-bar-top-secondary ul#wp-admin-bar-user-actions li#wp-admin-bar-user-info a span {
+		display: block;
+	    left: 23%;
+	    position: relative;
+	    width: 73%;
+	    line-height: 1.1;
+	}
+	#wp-admin-bar-top-secondary ul#wp-admin-bar-user-actions li#wp-admin-bar-user-info a span.display-name {
+		font-size: 18px;
+    	font-weight: 600;
+	}
+	#wp-admin-bar-top-secondary ul#wp-admin-bar-user-actions li#wp-admin-bar-user-info a span.username {
+		font-weight: 400;
+    	margin-top: 8px;
+	}
+
+	/*--------------------------------------------------------------
+	2.4 - Notifications
+	--------------------------------------------------------------*/
+
+	/* Pending Notifications Counter over User Nav Button */
+	#main-wrap #mobile-header .mobile-header-inner div.left-btn a.closed > span#ab-pending-notifications {
+		position: absolute;
+		text-align: center;
+		right: 9px;
+		top: 9px;
+		padding: 3px 5px;
+		color: #fff;
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 1;
+		display: block;
+		background-color: #f82a1d;
+
+		-webkit-border-radius: 999px;
+		-moz-border-radius: 999px;
+		border-radius: 999px;
+	}
+	#main-wrap #mobile-header .mobile-header-inner div.left-btn a.open > span#ab-pending-notifications {
+		display: none;
+	}
+	#main-wrap #mobile-header .mobile-header-inner div.left-btn a {
+		position: relative;
+	}
+	#main-wrap #mobile-header .mobile-header-inner div.left-btn a > span#ab-pending-notifications.no-alert {
+		display: none;
+	}
+
+	/*--------------------------------------------------------------
+	2.5 - Top Level Navigation
+	--------------------------------------------------------------*/
+
+	/* Parent Nav Elements */
+	#wpadminbar div.quicklinks ul li.menupop div.ab-sub-wrapper ul > li.menupop {
+		min-height: 30px;
+		width: 100%;
+		display: block;
+		position: relative;
+	}
+
+	#wpadminbar div.quicklinks ul li.menupop div.ab-sub-wrapper ul > li.menupop > a.ab-item {
+		background: #3C3C44;
+	    color: #96969e;
+	    cursor: default;
+	    display: block;
+	    font-size: 11px;
+	    font-weight: 400;
+	    letter-spacing: 0.1em;
+	    overflow: hidden;
+	    text-transform: uppercase;
+    }
+    #wpadminbar div.quicklinks ul li.menupop div.ab-sub-wrapper ul > li.menupop > a.ab-item {
+    	padding: 10px 5%;
+	    width: 90%;
+    }
+
+	#wpadminbar div.quicklinks ul li.menupop div.ab-sub-wrapper ul > li.menupop > a span.count {
+		display:none;
+	}
+
+	/* Sub Nav Elements */
+	#wpadminbar div.quicklinks ul li.menupop div.ab-sub-wrapper ul > li.menupop > div.ab-sub-wrapper {
+		display: block;
+	    height: auto !important;
+	    opacity: 1;
+	    overflow: hidden;
+	    width: 100%;
+	}
+
+	#wpadminbar div.quicklinks ul li.menupop div.ab-sub-wrapper ul > li.menupop > div.ab-sub-wrapper li,
+	#wpadminbar div.quicklinks > ul > li.menupop > div.ab-sub-wrapper > ul > li,
+	#wpadminbar div.quicklinks ul li#wp-admin-bar-bp-login,
+	#wpadminbar div.quicklinks ul li#wp-admin-bar-bp-register {
+		width: 100%;
+		margin: 0;
+		display: block;
+	}
+
+	#wpadminbar div.quicklinks ul li.menupop div.ab-sub-wrapper ul > li.menupop > div.ab-sub-wrapper li a,
+	#wpadminbar div.quicklinks > ul > li.menupop > div.ab-sub-wrapper > ul > li a,
+	#wpadminbar div.quicklinks ul li#wp-admin-bar-bp-login > a,
+	#wpadminbar div.quicklinks ul li#wp-admin-bar-bp-register > a  {
+	    display: block;
+	    font-size: 16px;
+	    padding: 13px 5%;
+	    width: 90%;
+	}
+	#wpadminbar div.quicklinks ul li.menupop div.ab-sub-wrapper ul > li.menupop > div.ab-sub-wrapper li a span.count {
+		background-color: #717176;
+		color: #fff;
+	    font-size: 12px;
+	    line-height: 1;
+	    padding: 1px 6px;
+	    border-radius: 999px;
+	}
+	#wpadminbar div.quicklinks ul li.menupop div.ab-sub-wrapper ul > li#wp-admin-bar-my-account-notifications > div.ab-sub-wrapper li a span.count {
+		background-color: #f82a1d;
+
+	}
+
+	/* Logged Out Nav */
+
+	#wpadminbar ul.ab-top-menu {
+		display: block;
+	}
+
+}

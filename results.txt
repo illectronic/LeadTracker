@@ -1,0 +1,262 @@
+wp-admin/includes/ms-deprecated.php:		wp_die( __('Sorry, you must delete files before you can upload any more.') );
+wp-admin/includes/ms.php:			_e( 'Sorry, you have used your space allocation. Please delete some files to upload more files.' );
+wp-admin/includes/media.php:	echo '<p>' . sprintf( __( 'Sorry, you have used all of your storage quota of %s MB.' ), get_space_allowed() ) . '</p>';
+wp-admin/includes/class-wp-importer.php:				echo "Sorry, you have used your upload quota.\n";
+wp-admin/includes/file.php:			wp_die( __('Sorry, can&#8217;t edit files with &#8220;..&#8221; in the name. If you are trying to edit a file in your WordPress home directory, you can just type the name of the file in.' ));
+wp-admin/includes/file.php:		//	wp_die( __('Sorry, can&#8217;t call files with their real path.' ));
+wp-admin/includes/file.php:			wp_die( __('Sorry, that file cannot be edited.' ));
+wp-admin/includes/file.php:			return call_user_func($upload_error_handler, $file, __( 'Sorry, this file type is not permitted for security reasons.' ));
+wp-admin/includes/file.php:			return $upload_error_handler( $file, __( 'Sorry, this file type is not permitted for security reasons.' ));
+wp-admin/includes/ajax-actions.php:		wp_die( __( 'Sorry, you must be logged in to reply to a comment.' ) );
+wp-admin/setup-config.php:	wp_die( __( 'Sorry, I need a wp-config-sample.php file to work from. Please re-upload this file from your WordPress installation.' ) );
+wp-admin/setup-config.php:<p><?php _e( "Sorry, but I can&#8217;t write the <code>wp-config.php</code> file." ); ?></p>
+wp-admin/install.php:			display_setup_form( __( 'Sorry, that isn&#8217;t a valid email address. Email addresses look like <code>username@example.com</code>.' ) );
+wp-admin/install.php:<p><?php _e( 'WordPress has been installed. Were you expecting more steps? Sorry to disappoint.' ); ?></p>
+wp-admin/revision.php:	<div class="diff-error"><?php _e( 'Sorry, something went wrong. The requested comparison could not be loaded.' ); ?></div>
+wp-comments-post.php:	wp_die( __('Sorry, comments are closed for this item.') );
+wp-comments-post.php:		wp_die( __('Sorry, you must be logged in to post a comment.') );
+wp-content/themes/twentytwelve/languages/twentytwelve.pot:"Sorry, but nothing matched your search criteria. Please try again with some "
+wp-content/themes/twentytwelve/search.php:					<p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'twentytwelve' ); ?></p>
+wp-content/themes/buddyboss/languages/xx_XX.pot:msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+wp-content/themes/buddyboss/languages/xx_XX.pot:msgid "Sorry, no members were found."
+wp-content/themes/buddyboss/languages/xx_XX.pot:msgid "Sorry, no messages were found."
+wp-content/themes/buddyboss/languages/xx_XX.pot:msgid "Sorry, no notices were found."
+wp-content/themes/buddyboss/languages/de_DE.po:msgid "Sorry, no members were found."
+wp-content/themes/buddyboss/languages/de_DE.po:msgid "Sorry, no messages were found."
+wp-content/themes/buddyboss/languages/de_DE.po:msgid "Sorry, no notices were found."
+wp-content/themes/buddyboss/languages/de_DE.po:msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+Binary file wp-content/themes/buddyboss/languages/nl_NL.mo matches
+wp-content/themes/buddyboss/languages/en_US.po:msgid "Sorry, no members were found."
+wp-content/themes/buddyboss/languages/en_US.po:msgid "Sorry, no messages were found."
+wp-content/themes/buddyboss/languages/en_US.po:msgid "Sorry, no notices were found."
+wp-content/themes/buddyboss/languages/en_US.po:msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+wp-content/themes/buddyboss/languages/nl_NL.po:msgid "Sorry, no members were found."
+wp-content/themes/buddyboss/languages/nl_NL.po:msgid "Sorry, no messages were found."
+wp-content/themes/buddyboss/languages/nl_NL.po:msgid "Sorry, no notices were found."
+wp-content/themes/buddyboss/languages/nl_NL.po:msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+Binary file wp-content/themes/buddyboss/languages/sv_SE.mo matches
+Binary file wp-content/themes/buddyboss/languages/de_DE.mo matches
+wp-content/themes/buddyboss/languages/sv_SE.po:msgid "Sorry, no members were found."
+wp-content/themes/buddyboss/languages/sv_SE.po:msgid "Sorry, no messages were found."
+wp-content/themes/buddyboss/languages/sv_SE.po:msgid "Sorry, no notices were found."
+wp-content/themes/buddyboss/languages/sv_SE.po:msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+wp-content/themes/buddyboss/buddypress/members/single/messages/notices-loop.php:		<p><?php _e( 'Sorry, no notices were found.', 'buddyboss' ); ?></p>
+wp-content/themes/buddyboss/buddypress/members/single/messages/messages-loop.php:		<p><?php _e( 'Sorry, no messages were found.', 'buddyboss' ); ?></p>
+wp-content/themes/buddyboss/buddypress/members/members-loop.php:		<p><?php _e( "Sorry, no members were found.", 'buddyboss' ); ?></p>
+wp-content/themes/buddyboss/search.php:					<p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'buddyboss' ); ?></p>
+wp-content/themes/twentythirteen/languages/twentythirteen.pot:"Sorry, but nothing matched your search terms. Please try again with "
+wp-content/themes/twentythirteen/content-none.php:	<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with different keywords.', 'twentythirteen' ); ?></p>
+wp-content/themes/twentyfourteen/languages/twentyfourteen.pot:"Sorry, but nothing matched your search terms. Please try again with some "
+wp-content/themes/twentyfourteen/content-none.php:	<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'twentyfourteen' ); ?></p>
+wp-content/plugins/buddypress-toolbar/readme.txt: * v1.5.1: Corrects a small syntax error. -- Sorry!
+wp-content/plugins/buddypress-toolbar/buddypress-toolbar.php:	exit( 'Sorry, you are not allowed to access this file directly.' );
+wp-content/plugins/buddypress-toolbar/includes/bptb-plugins-eventsmanager.php:	exit( 'Sorry, you are not allowed to access this file directly.' );
+wp-content/plugins/buddypress-toolbar/includes/bptb-plugins-collabpress.php:	exit( 'Sorry, you are not allowed to access this file directly.' );
+wp-content/plugins/buddypress-toolbar/includes/bptb-plugins-bpcheckins.php:	exit( 'Sorry, you are not allowed to access this file directly.' );
+wp-content/plugins/buddypress-toolbar/includes/bptb-plugins-buddypressmedia.php:	exit( 'Sorry, you are not allowed to access this file directly.' );
+wp-content/plugins/buddypress-toolbar/includes/bptb-admin.php:	exit( 'Sorry, you are not allowed to access this file directly.' );
+wp-content/plugins/buddypress-toolbar/includes/bptb-resources.php:	exit( 'Sorry, you are not allowed to access this file directly.' );
+wp-content/plugins/buddypress-toolbar/includes/bptb-plugins-achievementsapp.php:	exit( 'Sorry, you are not allowed to access this file directly.' );
+wp-content/plugins/buddypress-toolbar/includes/bptb-themes.php:	exit( 'Sorry, you are not allowed to access this file directly.' );
+wp-content/plugins/buddypress-toolbar/includes/bptb-branding.php:	exit( 'Sorry, you are not allowed to access this file directly.' );
+wp-content/plugins/buddypress-toolbar/includes/bptb-plugins-achievements2x.php:	exit( 'Sorry, you are not allowed to access this file directly.' );
+wp-content/plugins/buddypress-toolbar/includes/bptb-plugins.php:	exit( 'Sorry, you are not allowed to access this file directly.' );
+wp-content/plugins/post-expirator/post-expirator.php:			print 'Form Validation Failure: Sorry, your nonce did not verify.';
+wp-content/plugins/post-expirator/post-expirator.php:			print 'Form Validation Failure: Sorry, your nonce did not verify.';
+wp-content/plugins/post-expirator/post-expirator.php:			print 'Form Validation Failure: Sorry, your nonce did not verify.';
+wp-content/plugins/buddypress-block-activity-stream-types/readme.txt:Sorry, since you blocked certain types from the database - nothing was ever saved to begin with.
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, there were no posts found. Why not write one?"
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, no members were found."
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, you are not allowed to create groups."
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, that email address is not allowed!"
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, that email address is already used!"
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, usernames may not contain the character \"_\"!"
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, usernames must have letters too!"
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, that username already exists!"
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, there was no activity found. Please try a different filter."
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, there were no sites found."
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, there were no forum topics found."
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, no messages were found."
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, no notices were found."
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, no attachments matched your criteria."
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, but you are looking for something that isn't here."
+wp-content/plugins/buddypress/bp-languages/buddypress.pot:msgid "Sorry, no posts matched your criteria."
+wp-content/plugins/buddypress/bp-forums/bbpress/bb-edit.php:	bb_die(__('Sorry, post is too old.'));
+wp-content/plugins/buddypress/bp-members/bp-members-functions.php:		$errors->add( 'user_email',  __( 'Sorry, that email address is not allowed!', 'buddypress' ) );
+wp-content/plugins/buddypress/bp-members/bp-members-functions.php:		$errors->add( 'user_email', __( 'Sorry, that email address is not allowed!', 'buddypress' ) );
+wp-content/plugins/buddypress/bp-members/bp-members-functions.php:		$errors->add( 'user_email', __( 'Sorry, that email address is already used!', 'buddypress' ) );
+wp-content/plugins/buddypress/bp-members/bp-members-functions.php:			$errors->add( 'user_name', __( 'Sorry, usernames may not contain the character "_"!', 'buddypress' ) );
+wp-content/plugins/buddypress/bp-members/bp-members-functions.php:			$errors->add( 'user_name', __( 'Sorry, usernames must have letters too!', 'buddypress' ) );
+wp-content/plugins/buddypress/bp-members/bp-members-functions.php:			$errors->add( 'user_name', __( 'Sorry, that username already exists!', 'buddypress' ) );
+wp-content/plugins/buddypress/bp-themes/bp-default/forums/forums-loop.php:		<p><?php _e( 'Sorry, there were no forum topics found.', 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-themes/bp-default/attachment.php:					<p><?php _e( 'Sorry, no attachments matched your criteria.', 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-themes/bp-default/single.php:				<p><?php _e( 'Sorry, no posts matched your criteria.', 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-themes/bp-default/members/single/messages/notices-loop.php:		<p><?php _e( 'Sorry, no notices were found.', 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-themes/bp-default/members/single/messages/messages-loop.php:		<p><?php _e( 'Sorry, no messages were found.', 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-themes/bp-default/members/members-loop.php:		<p><?php _e( "Sorry, no members were found.", 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-themes/bp-default/blogs/blogs-loop.php:		<p><?php _e( 'Sorry, there were no sites found.', 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-themes/bp-default/index.php:				<p class="center"><?php _e( 'Sorry, but you are looking for something that isn\'t here.', 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-themes/bp-default/activity/activity-loop.php:		<p><?php _e( 'Sorry, there was no activity found. Please try a different filter.', 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/forums/forums-loop.php:		<p><?php _e( 'Sorry, there were no forum topics found.', 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/members/single/messages/notices-loop.php:		<p><?php _e( 'Sorry, no notices were found.', 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/members/single/messages/messages-loop.php:		<p><?php _e( 'Sorry, no messages were found.', 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/members/members-loop.php:		<p><?php _e( "Sorry, no members were found.", 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/blogs/blogs-loop.php:		<p><?php _e( 'Sorry, there were no sites found.', 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-templates/bp-legacy/buddypress/activity/activity-loop.php:		<p><?php _e( 'Sorry, there was no activity found. Please try a different filter.', 'buddypress' ); ?></p>
+wp-content/plugins/buddypress/bp-groups/bp-groups-actions.php:		bp_core_add_message( __( 'Sorry, you are not allowed to create groups.', 'buddypress' ), 'error' );
+wp-content/plugins/buddypress/bp-blogs/bp-blogs-widgets.php:				<p><?php _e( 'Sorry, there were no posts found. Why not write one?', 'buddypress' ) ?></p>
+wp-content/plugins/buddypress/bp-friends/bp-friends-widgets.php:				<?php _e( 'Sorry, no members were found.', 'buddypress' ); ?>
+wp-content/plugins/wpdirauth/wpDirAuth.php:            <h3>Sorry, but your PHP install does not seem to have access to the LDAP features.</h3>
+wp-content/plugins/wpdirauth/wpDirAuth.php:            <h3>Sorry, but another plugin seems to be conflicting with wpDirAuth.</h3>
+wp-content/plugins/wpdirauth/wpDirAuth.php:                        Sorry, but the site administrators have disabled
+wp-content/upgrade/buddyboss/buddyboss/languages/xx_XX.pot:msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+wp-content/upgrade/buddyboss/buddyboss/languages/xx_XX.pot:msgid "Sorry, no members were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/xx_XX.pot:msgid "Sorry, no messages were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/xx_XX.pot:msgid "Sorry, no notices were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/de_DE.po:msgid "Sorry, no members were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/de_DE.po:msgid "Sorry, no messages were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/de_DE.po:msgid "Sorry, no notices were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/de_DE.po:msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+Binary file wp-content/upgrade/buddyboss/buddyboss/languages/nl_NL.mo matches
+wp-content/upgrade/buddyboss/buddyboss/languages/en_US.po:msgid "Sorry, no members were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/en_US.po:msgid "Sorry, no messages were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/en_US.po:msgid "Sorry, no notices were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/en_US.po:msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+wp-content/upgrade/buddyboss/buddyboss/languages/nl_NL.po:msgid "Sorry, no members were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/nl_NL.po:msgid "Sorry, no messages were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/nl_NL.po:msgid "Sorry, no notices were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/nl_NL.po:msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+Binary file wp-content/upgrade/buddyboss/buddyboss/languages/sv_SE.mo matches
+Binary file wp-content/upgrade/buddyboss/buddyboss/languages/de_DE.mo matches
+wp-content/upgrade/buddyboss/buddyboss/languages/sv_SE.po:msgid "Sorry, no members were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/sv_SE.po:msgid "Sorry, no messages were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/sv_SE.po:msgid "Sorry, no notices were found."
+wp-content/upgrade/buddyboss/buddyboss/languages/sv_SE.po:msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+wp-content/upgrade/buddyboss/buddyboss/buddypress/members/single/messages/notices-loop.php:		<p><?php _e( 'Sorry, no notices were found.', 'buddyboss' ); ?></p>
+wp-content/upgrade/buddyboss/buddyboss/buddypress/members/single/messages/messages-loop.php:		<p><?php _e( 'Sorry, no messages were found.', 'buddyboss' ); ?></p>
+wp-content/upgrade/buddyboss/buddyboss/buddypress/members/members-loop.php:		<p><?php _e( "Sorry, no members were found.", 'buddyboss' ); ?></p>
+wp-content/upgrade/buddyboss/buddyboss/search.php:					<p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'buddyboss' ); ?></p>
+wp-content/buddyboss.backup/languages/xx_XX.pot:msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+wp-content/buddyboss.backup/languages/xx_XX.pot:msgid "Sorry, no members were found."
+wp-content/buddyboss.backup/languages/xx_XX.pot:msgid "Sorry, no messages were found."
+wp-content/buddyboss.backup/languages/xx_XX.pot:msgid "Sorry, no notices were found."
+Binary file wp-content/buddyboss.backup/languages/nl_NL.mo matches
+wp-content/buddyboss.backup/languages/en_US.po:msgid "Sorry, no members were found."
+wp-content/buddyboss.backup/languages/en_US.po:msgid "Sorry, no messages were found."
+wp-content/buddyboss.backup/languages/en_US.po:msgid "Sorry, no notices were found."
+wp-content/buddyboss.backup/languages/en_US.po:msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+wp-content/buddyboss.backup/languages/nl_NL.po:msgid "Sorry, no members were found."
+wp-content/buddyboss.backup/languages/nl_NL.po:msgid "Sorry, no messages were found."
+wp-content/buddyboss.backup/languages/nl_NL.po:msgid "Sorry, no notices were found."
+wp-content/buddyboss.backup/languages/nl_NL.po:msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+Binary file wp-content/buddyboss.backup/languages/sv_SE.mo matches
+wp-content/buddyboss.backup/languages/sv_SE.po:msgid "Sorry, no members were found."
+wp-content/buddyboss.backup/languages/sv_SE.po:msgid "Sorry, no messages were found."
+wp-content/buddyboss.backup/languages/sv_SE.po:msgid "Sorry, no notices were found."
+wp-content/buddyboss.backup/languages/sv_SE.po:msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+wp-content/buddyboss.backup/buddypress/members/single/messages/notices-loop.php:		<p><?php _e( 'Sorry, no notices were found.', 'buddyboss' ); ?></p>
+wp-content/buddyboss.backup/buddypress/members/single/messages/messages-loop.php:		<p><?php _e( 'Sorry, no messages were found.', 'buddyboss' ); ?></p>
+wp-content/buddyboss.backup/buddypress/members/members-loop.php:		<p><?php _e( "Sorry, no members were found.", 'buddyboss' ); ?></p>
+wp-content/buddyboss.backup/search.php:					<p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'buddyboss' ); ?></p>
+wp-includes/theme-compat/comments-popup.php:<p><?php _e('Sorry, the comment form is closed at this time.'); ?></p>
+wp-includes/theme-compat/comments-popup.php:<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+wp-includes/user.php:		return new WP_Error( 'existing_user_login', __( 'Sorry, that username already exists!' ) );
+wp-includes/user.php:		return new WP_Error( 'existing_user_email', __( 'Sorry, that email address is already used!' ) );
+wp-includes/class-wp-xmlrpc-server.php:				return new IXR_Error( 401, __( 'Sorry, you are not allowed to edit this post.' ) );
+wp-includes/class-wp-xmlrpc-server.php:				return new IXR_Error( 401, __( 'Sorry, you are not allowed to post on this site.' ) );
+wp-includes/class-wp-xmlrpc-server.php:					return new IXR_Error( 401, __( 'Sorry, you are not allowed to create private posts in this post type' ) );
+wp-includes/class-wp-xmlrpc-server.php:					return new IXR_Error( 401, __( 'Sorry, you are not allowed to publish posts in this post type' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you are not allowed to create password protected posts in this post type' ) );
+wp-includes/class-wp-xmlrpc-server.php:					return new IXR_Error( 401, __( 'Sorry, you cannot stick a private post.' ) );
+wp-includes/class-wp-xmlrpc-server.php:					return new IXR_Error( 401, __( 'Sorry, you are not allowed to stick this post.' ) );
+wp-includes/class-wp-xmlrpc-server.php:						return new IXR_Error( 401, __( 'Sorry, one of the given taxonomies is not supported by the post type.' ) );
+wp-includes/class-wp-xmlrpc-server.php:						return new IXR_Error( 401, __( 'Sorry, you are not allowed to assign a term to one of the given taxonomies.' ) );
+wp-includes/class-wp-xmlrpc-server.php:						return new IXR_Error( 401, __( 'Sorry, one of the given taxonomies is not supported by the post type.' ) );
+wp-includes/class-wp-xmlrpc-server.php:						return new IXR_Error( 401, __( 'Sorry, you are not allowed to assign a term to one of the given taxonomies.' ) );
+wp-includes/class-wp-xmlrpc-server.php:								return new IXR_Error( 401, __( 'Sorry, you are not allowed to add a term to one of the given taxonomies.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, your entry could not be posted. Something wrong happened.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you are not allowed to delete this post.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you cannot edit this post.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you are not allowed to edit posts in this post type' ));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 500, __( 'Sorry, your term could not be created. Something wrong happened.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 500, __( 'Sorry, editing the term failed.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 500, __( 'Sorry, deleting the term failed.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you cannot edit users.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you cannot list users.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you cannot edit your profile.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you cannot edit your profile.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 500, __( 'Sorry, the user cannot be updated.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you cannot edit this page.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return(new IXR_Error(404, __('Sorry, no such page.')));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you cannot edit pages.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return(new IXR_Error(404, __('Sorry, no such page.')));
+wp-includes/class-wp-xmlrpc-server.php:			return(new IXR_Error(401, __('Sorry, you do not have the right to delete this page.')));
+wp-includes/class-wp-xmlrpc-server.php:			return(new IXR_Error(404, __('Sorry, no such page.')));
+wp-includes/class-wp-xmlrpc-server.php:			return(new IXR_Error(401, __('Sorry, you do not have the right to edit this page.')));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you cannot edit pages.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return(new IXR_Error(401, __('Sorry, you cannot edit posts on this site.')));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you must be able to edit posts on this site in order to view tags.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return(new IXR_Error(401, __('Sorry, you do not have the right to add a category.')));
+wp-includes/class-wp-xmlrpc-server.php:				return(new IXR_Error(500, __('Sorry, the new category failed.')));
+wp-includes/class-wp-xmlrpc-server.php:			return(new IXR_Error(500, __('Sorry, the new category failed.')));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you do not have the right to delete a category.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you must be able to edit posts to this site in order to view categories.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you cannot edit comments.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error(500, __('Sorry, the comment could not be edited. Something wrong happened.'));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you are not allowed to edit this post type.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you are not allowed to edit posts.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, revisions are disabled.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you cannot edit this post.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, revisions are disabled.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you do not have access to user data on this site.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you cannot edit this post.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you cannot edit posts on this site.' ) );
+wp-includes/class-wp-xmlrpc-server.php:		return new IXR_Error( 403, __('Sorry, that file cannot be edited.' ) );
+wp-includes/class-wp-xmlrpc-server.php:		return new IXR_Error( 403, __('Sorry, that file cannot be edited.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error(401, __('Sorry, you are not allowed to post on this site.'));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error(500, __('Sorry, your entry could not be posted. Something wrong happened.'));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error(404, __('Sorry, no such post.'));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error(401, __('Sorry, you do not have the right to edit this post.'));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error(401, __('Sorry, you do not have the right to publish this post.'));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error(404, __('Sorry, no such post.'));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error(401, __('Sorry, you do not have the right to delete this post.'));
+wp-includes/class-wp-xmlrpc-server.php:				$error_message = __( 'Sorry, you are not allowed to publish pages on this site.' );
+wp-includes/class-wp-xmlrpc-server.php:				$error_message = __( 'Sorry, you are not allowed to publish posts on this site.' );
+wp-includes/class-wp-xmlrpc-server.php:			$error_message = __( 'Sorry, you are not allowed to publish posts on this site.' );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you are not allowed to publish posts on this site.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error(500, __('Sorry, your entry could not be posted. Something wrong happened.'));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you do not have the right to edit this post.' ) );
+wp-includes/class-wp-xmlrpc-server.php:				return new IXR_Error(401, __('Sorry, you do not have the right to publish this page.'));
+wp-includes/class-wp-xmlrpc-server.php:				return new IXR_Error(401, __('Sorry, you do not have the right to publish this post.'));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error(500, __('Sorry, your entry could not be edited. Something wrong happened.'));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you cannot edit this post.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error(404, __('Sorry, no such post.'));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you cannot edit posts on this site.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you must be able to edit posts on this site in order to view categories.' ) );
+wp-includes/class-wp-xmlrpc-server.php:				return new IXR_Error( 401, __( 'Sorry, you cannot edit this post.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you must be able to edit posts on this site in order to view categories.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error( 401, __( 'Sorry, you can not edit this post.' ) );
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error(401, __('Sorry, you cannot edit this post.'));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error(404, __('Sorry, no such post.'));
+wp-includes/class-wp-xmlrpc-server.php:			return new IXR_Error(401, __('Sorry, you cannot publish this post.'));
+wp-includes/class-phpmailer.php:if (version_compare(PHP_VERSION, '5.0.0', '<') ) exit("Sorry, this version of PHPMailer will only run on PHP version 5 or greater!\n");
+wp-includes/class-wp-admin-bar.php:				return array(); // Sorry, folks.
+wp-includes/js/tinymce/langs/wp-langs.php:			'popup_blocked' => __('Sorry, but we have noticed that your popup-blocker has disabled a window that provides application functionality. You will need to disable popup blocking on this site in order to fully utilize this tool.'),
+wp-includes/js/tinymce/langs/wp-langs-en.js:popup_blocked:"Sorry, but we have noticed that your popup-blocker has disabled a window that provides application functionality. You will need to disable popup blocking on this site in order to fully utilize this tool.",
+wp-includes/ms-functions.php:		$errors->add( 'user_name', __( 'Sorry, usernames may not contain the character &#8220;_&#8221;!' ) );
+wp-includes/ms-functions.php:		$errors->add('user_name', __('Sorry, usernames must have letters too!'));
+wp-includes/ms-functions.php:			$errors->add('user_email', __('Sorry, that email address is not allowed!'));
+wp-includes/ms-functions.php:		$errors->add( 'user_name', __( 'Sorry, that username already exists!' ) );
+wp-includes/ms-functions.php:		$errors->add( 'user_email', __( 'Sorry, that email address is already used!' ) );
+wp-includes/ms-functions.php:		$errors->add( 'blogname', __( 'Sorry, site names may not contain the character &#8220;_&#8221;!' ) );
+wp-includes/ms-functions.php:		$errors->add( 'blogname', __( 'Sorry, you may not use that site name.' ) );
+wp-includes/ms-functions.php:		$errors->add('blogname', __('Sorry, site names must have letters too!'));
+wp-includes/ms-functions.php:		$errors->add( 'blogname', __( 'Sorry, that site already exists!' ) );
+wp-includes/ms-functions.php:			$errors->add( 'blogname', __( 'Sorry, that site is reserved!' ) );
+wp-includes/ms-functions.php:		return new WP_Error( 'blog_taken', __( 'Sorry, that site already exists!' ) );
+wp-login.php:			$errors->add( 'invalidkey', __( 'Sorry, that key does not appear to be valid.' ) );
+wp-login.php:			$errors->add( 'expiredkey', __( 'Sorry, that key has expired. Please try again.' ) );
+wp-login.php.20140415:			$errors->add( 'invalidkey', __( 'Sorry, that key does not appear to be valid.' ) );
+wp-login.php.20140415:			$errors->add( 'expiredkey', __( 'Sorry, that key has expired. Please try again.' ) );
+wp-signup.php:				_e( 'Sorry, new registrations are not allowed at this time.' );
+wp-trackback.php:		trackback_response(1, 'Sorry, trackbacks are closed for this item.');
